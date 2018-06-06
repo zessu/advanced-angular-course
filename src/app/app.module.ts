@@ -8,6 +8,8 @@ import { CustomInputComponent } from './custom-input/custom-input.component';
 import { DlistenerDirective } from './dlistener.directive';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HighlightClassDirective } from './custom-input/highlight-class.directive';
+import { CustomButtonComponent } from './custom-button/custom-button.component';
+import { InputFocusHighlightDirective } from './input-focus-highlight.directive';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { HighlightClassDirective } from './custom-input/highlight-class.directiv
     AppComponent,
     CustomInputComponent,
     DlistenerDirective,
-    HighlightClassDirective
+    HighlightClassDirective,
+    CustomButtonComponent,
+    InputFocusHighlightDirective
   ],
   imports: [
     BrowserModule,

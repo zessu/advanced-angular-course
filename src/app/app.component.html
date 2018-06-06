@@ -1,10 +1,20 @@
-<app-custom-input icon="home">
-    <input #input appHighlightClass type="text" name="username" placeholder="username">
-</app-custom-input>
-<app-custom-input icon="key">
-    <input #input appHighlightClass type="password" name="password" placeholder="password">
-</app-custom-input>
+<div class="container">
 
-<mat-form-field>
-  <input matInput appDlistener type="text" placeholder="username 2" value="this is the day that the lord has made">
-</mat-form-field>
+  <app-custom-input icon="home" class="custom-yellow-theme">
+    <input #input type="text" name="username" placeholder="username">
+  </app-custom-input>
+
+  <app-custom-input icon="key" class="custom-red-theme">
+    <input #input type="password" name="password" placeholder="password">
+  </app-custom-input>
+
+  <mat-form-field>
+    <input matInput appDlistener type="text" placeholder="username 2" value="this is the day that the lord has made">
+  </mat-form-field>
+
+</div>
+
+
+<!-- <app-custom-button>
+  <button mat-stroked-button color="accent">Click me!</button>
+</app-custom-button> -->

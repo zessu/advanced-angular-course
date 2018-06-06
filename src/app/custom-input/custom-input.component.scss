@@ -1,0 +1,13 @@
+.icon {
+  margin-right: 10px;
+}
+
+:host /deep/ input {
+  border: none;
+  display: inline-block;
+  outline: none;
+}
+
+:host(.input-focus) {
+  border: 1px solid blue;
+}
