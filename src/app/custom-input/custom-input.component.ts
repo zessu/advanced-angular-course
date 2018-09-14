@@ -12,7 +12,7 @@ import { InputFocusHighlightDirective } from "../input-focus-highlight.directive
 @Component({
   selector: "app-custom-input",
   templateUrl: "./custom-input.component.html",
-  styleUrls: ["./custom-input.component.scss"]
+  styleUrls: ["./styles/custom-input.component.scss"]
 })
 export class CustomInputComponent implements AfterContentInit, OnInit {
   @Input()
