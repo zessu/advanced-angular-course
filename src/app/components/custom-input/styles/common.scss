@@ -1,0 +1,22 @@
+@import "custom-input-colors.scss";
+.icon {
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+:host {
+  display: flex;
+  border: 1px solid $lightGrey;
+}
+
+:host(.input-focus) {
+  outline: none;
+}
+
+:host /deep/ input {
+  border: none;
+  outline: none;
+  display: inline-block;
+  flex-grow: 1;
+}
