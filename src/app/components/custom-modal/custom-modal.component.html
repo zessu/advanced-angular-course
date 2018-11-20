@@ -1,0 +1,10 @@
+<div class="modal-overlay" (click)="closeDialog()">
+  <div class="modal-content" (click)="stopPropagate($event)">
+    <ng-container *ngIf="template else projectedContent">
+      <ng-container *ngTemplateOutlet="template"></ng-container>
+    </ng-container>
+    <ng-template #projectedContent>
+      <ng-content></ng-content>
+    </ng-template>
+  </div>
+</div>
